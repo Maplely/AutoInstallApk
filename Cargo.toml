@@ -6,4 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+miette = "5.5.0"
+thiserror = "1.0.39"
+tokio = "1.26.0"
 watchexec = { git = "https://github.com/watchexec/watchexec.git", rev = "f83790bce3a20f0e993f8f1ff9b652b645ed7668"}

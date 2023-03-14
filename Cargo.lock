@@ -6,6 +6,9 @@ version = 3
 name = "AutoInstallApk"
 version = "0.1.0"
 dependencies = [
+ "miette",
+ "thiserror",
+ "tokio",
  "watchexec",
 ]
 
